@@ -1,1 +1,27 @@
 /*nav footer*/
+.footer {
+
+
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        & li {
+            padding: 1em 0em;
+
+            & a {
+                text-decoration: none;
+                color: var(--couleurBlanc);
+                background-color: var(--couleurGris);
+                padding: 1em;
+
+            }
+
+            & a:hover {
+                background-color: var(--couleurNoir);
+                padding: 1em;
+            }
+        }
+    }
+}
