@@ -5,6 +5,7 @@
   --couleurBrun: #a64f03;
   --couleurGris:#736b6a;
   --couleurNoir:#0d0d0d;
+  --couleurBlanc:#fff;
 }
 
 /*mixin*/
@@ -368,7 +369,53 @@ template {
 /*header*/
 /*footer*/
 footer {
-  background-color: #ff0000;
+  background-color: var(--couleurBrun);
+}
+
+footer .flexFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .flexFooter img {
+  width: 6em;
+  margin: 0em 3em 0em 0em;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+footer ul li {
+  padding: 1em 0em;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--couleurBlanc);
+  background-color: var(--couleurGris);
+  padding: 1em;
+}
+
+footer ul li a:hover {
+  background-color: var(--couleurNoir);
+  padding: 1em;
+}
+
+footer p {
+  display: block;
+  text-align: center;
+  color: var(--couleurBlanc);
 }
 
 /*liste produit*/
