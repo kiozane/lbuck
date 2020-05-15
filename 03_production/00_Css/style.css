@@ -366,13 +366,35 @@ template {
 /*sous grille contenu */
 /*nav principale*/
 .navPrincipal {
+  background-color: var(--couleurBrun);
+}
+
+.navPrincipal ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navPrincipal ul li {
+  padding: 2em;
+  list-style-type: none;
+}
+
+.navPrincipal ul li a {
+  padding: 2em;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+}
+
+.navPrincipal ul li a:hover {
+  background-color: var(--couleurGris);
 }
 
 .navPrincipal img {
-  width: 1em;
+  width: 8em;
 }
 
 /*nav footer*/
