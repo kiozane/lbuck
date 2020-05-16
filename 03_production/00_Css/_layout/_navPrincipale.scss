@@ -3,12 +3,12 @@
     background-color:var(--couleurBrun);
     ul{
         display: flex;
-        justify-content: center;
+       justify-content: center;
         & li{
             padding: 2em;
             list-style-type: none;
             & a{
-                padding: 2em;
+                
                 color: var(--couleurBlanc);
                 text-decoration: none;
                 
@@ -20,5 +20,6 @@
     }
     img{
         width: 8em;
+        
     }
 }

@@ -1,0 +1,21 @@
+/*horaire*/
+section.horaire{
+    background-color: var(--couleurGris);
+    border: 1px solid var(--couleurNoir);
+    
+    & h3{
+        color: var(--couleurBlanc);
+        text-align: center;
+        font-size: 2em;
+    }  
+    & table{
+        padding-left: 38vw;
+    }
+    & th,td{
+        border:solid 1px var(--couleurBlanc);
+        font-size: 1.25em;
+        
+    }
+    
+    
+}

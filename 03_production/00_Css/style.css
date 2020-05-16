@@ -384,7 +384,6 @@ template {
 }
 
 .navPrincipal ul li a {
-  padding: 2em;
   color: var(--couleurBlanc);
   text-decoration: none;
 }
@@ -451,7 +450,33 @@ footer p {
 }
 
 /*liste produit*/
+.wrapper {
+  width: 98vw;
+  margin: 0 auto;
+}
+
 /*pub*/
+/*horaire*/
+section.horaire {
+  background-color: var(--couleurGris);
+  border: 1px solid var(--couleurNoir);
+}
+
+section.horaire h3 {
+  color: var(--couleurBlanc);
+  text-align: center;
+  font-size: 2em;
+}
+
+section.horaire table {
+  padding-left: 38vw;
+}
+
+section.horaire th, section.horaire td {
+  border: solid 1px var(--couleurBlanc);
+  font-size: 1.25em;
+}
+
 /*gallerie image*/
 /*login*/
 /*# sourceMappingURL=style.css.map */
