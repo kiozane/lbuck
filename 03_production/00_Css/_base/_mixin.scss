@@ -1,1 +1,12 @@
 /*mixin*/
+@mixin boutton {
+    .boutton {
+        border: solid 3px var(--couleurGris);
+        background-color: var(--couleurJaune);
+        border-radius: 10%;
+        color: var(--couleurBlanc);
+        text-decoration: none;
+        padding: 0.5em;
+        margin: 1em;
+    }
+}

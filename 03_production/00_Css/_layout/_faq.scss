@@ -1,0 +1,22 @@
+.faq{
+    
+    background-color: var(--couleurOrange);
+    padding: 3em 0em;
+    & h3{
+        text-align: center;
+    }
+    & div.flex{
+        display: flex;
+    }
+    & img{
+        width: 8em;
+    }
+    & address{
+        padding: 2em 0em;
+    }
+    & i.fab{
+        font-size: 3em;
+        padding: 0.8rem;
+        color: var(--couleurNoir);
+    }
+}

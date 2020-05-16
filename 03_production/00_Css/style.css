@@ -427,6 +427,7 @@ template {
 /*footer*/
 footer {
   background-color: var(--couleurBrun);
+  padding: 0em 5em;
 }
 
 footer .flexFooter {
@@ -475,6 +476,45 @@ section.horaire table {
 section.horaire th, section.horaire td {
   border: solid 1px var(--couleurBlanc);
   font-size: 1.25em;
+}
+
+.faq {
+  background-color: var(--couleurOrange);
+  padding: 3em 0em;
+}
+
+.faq h3 {
+  text-align: center;
+}
+
+.faq div.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.faq img {
+  width: 8em;
+}
+
+.faq address {
+  padding: 2em 0em;
+}
+
+.faq i.fab {
+  font-size: 3em;
+  padding: 0.8rem;
+  color: var(--couleurNoir);
+}
+
+.boutton {
+  border: solid 3px var(--couleurGris);
+  background-color: var(--couleurJaune);
+  border-radius: 10%;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1em;
 }
 
 /*gallerie image*/
