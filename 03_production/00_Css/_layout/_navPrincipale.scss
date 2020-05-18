@@ -2,6 +2,7 @@
 .navPrincipal{
     background-color:var(--couleurBrun);
     ul{
+        margin: 0em;
         display: flex;
        justify-content: center;
         & li{

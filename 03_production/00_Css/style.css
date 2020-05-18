@@ -370,6 +370,7 @@ template {
 }
 
 .navPrincipal ul {
+  margin: 0em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,6 +508,51 @@ section.horaire th, section.horaire td {
   color: var(--couleurNoir);
 }
 
+.produit {
+  background-color: var(--couleurOrange);
+}
+
+.produit h3 {
+  margin: 0em;
+  color: var(--couleurBlanc);
+  text-align: left;
+  padding: 1em 3.5em;
+  font-size: 2em;
+  text-shadow: 2em 2em #0000;
+}
+
+.produit p {
+  padding: 0em 3.5em;
+  color: var(--couleurBlanc);
+}
+
+.produit .caroussel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.produit .caroussel .fa-arrow-left,
+.produit .caroussel .fa-arrow-right {
+  font-size: 5em;
+}
+
+.produit .caroussel .fa-arrow-left:hover,
+.produit .caroussel .fa-arrow-right:hover {
+  cursor: progress;
+}
+
+.produit .caroussel .fiche {
+  border: 5px solid black;
+  width: 15em;
+  height: 15em;
+  margin: 2em;
+}
+
+.produit .caroussel .fiche1 {
+  margin-left: 10em;
+}
+
 .boutton {
   border: solid 3px var(--couleurGris);
   background-color: var(--couleurJaune);
@@ -515,6 +561,30 @@ section.horaire th, section.horaire td {
   text-decoration: none;
   padding: 0.5em;
   margin: 1em;
+}
+
+.promo {
+  background-color: var(--couleurJaune);
+}
+
+.promo .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promo h3 {
+  color: var(--couleurBlanc);
+  display: block;
+}
+
+.promo p {
+  color: var(--couleurBlanc);
+}
+
+.promo img {
+  border: 5px solid black;
+  margin: 2em;
 }
 
 /*gallerie image*/

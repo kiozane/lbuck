@@ -1,0 +1,18 @@
+.promo {
+    background-color: var(--couleurJaune);
+    & .flex{
+        display: flex;
+    }
+
+    & h3 {
+        color: var(--couleurBlanc);
+        display: block
+    }
+    & p {
+        color: var(--couleurBlanc);
+    }
+    & img{
+        border: 5px solid black;
+        margin: 2em;
+    }
+}
