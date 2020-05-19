@@ -453,7 +453,7 @@ footer p {
 
 /*liste produit*/
 .wrapper {
-  width: 98vw;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -472,6 +472,7 @@ section.horaire h3 {
 
 section.horaire table {
   padding-left: 38vw;
+  padding-bottom: 2em;
 }
 
 section.horaire th, section.horaire td {
@@ -486,12 +487,16 @@ section.horaire th, section.horaire td {
 
 .faq h3 {
   text-align: center;
+  font-size: 2em;
+  color: var(--couleurBlanc);
 }
 
 .faq div.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80vw;
+  padding: 0em 20em;
 }
 
 .faq img {
@@ -622,6 +627,7 @@ section.horaire th, section.horaire td {
 
 .livraison {
   background-color: var(--couleurGris);
+  padding: 0em 0em 4em 10em;
 }
 
 .livraison .livraisonCote {
@@ -631,7 +637,7 @@ section.horaire th, section.horaire td {
 }
 
 .livraison i {
-  font-size: 5em;
+  font-size: 8em;
   color: var(--couleurJaune);
 }
 
@@ -652,15 +658,35 @@ section.horaire th, section.horaire td {
   color: var(--couleurBlanc);
 }
 
+.livraison .distance {
+  font-size: 2em;
+}
+
 .entreprise {
   background-color: var(--couleurGris);
+  border: 1px solid black;
+  padding: 0em 0em 2em 0em;
+}
+
+.entreprise .cotecote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40vw;
+  padding: 0em 0em 0em 25em;
+}
+
+.entreprise .cotecote p {
+  text-align: justify;
+  padding: 0em 0em 0em 3em;
+  font-size: 1em;
 }
 
 .entreprise h3 {
   margin: 0em;
   text-align: center;
   font-size: 2em;
-  padding: 1em 0em 0em 0em;
+  padding: 1em 0em;
 }
 
 .entreprise h3 a {
@@ -680,6 +706,34 @@ section.horaire th, section.horaire td {
   text-decoration: none;
   padding: 0.5em;
   margin: 1em;
+}
+
+.ariane {
+  background-color: var(--couleurJaune);
+  padding: 1em 0em;
+}
+
+.ariane .horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ariane .horizontal p {
+  color: var(--couleurBlanc);
+  font-size: 1.5em;
+  margin: 0em 0em 0em 1em;
+}
+
+.ariane .horizontal a {
+  color: var(--couleurBlanc);
+  margin: 0em 0em 0em 1em;
+  text-decoration: none;
+}
+
+.ariane .horizontal a:hover {
+  text-decoration: underline;
+  color: var(--couleurGris);
 }
 
 /*gallerie image*/

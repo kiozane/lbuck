@@ -28,13 +28,13 @@
 
 .livraison {
     background-color: var(--couleurGris);
-
+    padding: 0em 0em 4em 10em;
     & .livraisonCote {
         display: flex;
     }
 
     & i {
-        font-size: 5em;
+        font-size: 8em;
         color: var(--couleurJaune);
     }
 
@@ -56,16 +56,31 @@
     & label {
         color: var(--couleurBlanc);
     }
+    & .distance{
+        font-size: 2em;
+    }
 }
 
 .entreprise {
     background-color: var(--couleurGris);
+    border: 1px solid black;
+    padding: 0em 0em 2em 0em;
+    & .cotecote{
+        display: flex;
+        width: 40vw;
+        padding: 0em 0em 0em 25em;
+        & p{
+            text-align: justify;
+            padding: 0em 0em 0em 3em;
+            font-size: 1em;
+        }
+    }
 
     & h3 {
         margin: 0em;
         text-align: center;
         font-size: 2em;
-        padding: 1em 0em 0em 0em;
+        padding: 1em 0em ;
 
         & a {
             color: var(--couleurBlanc);

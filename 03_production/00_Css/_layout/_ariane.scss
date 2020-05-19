@@ -1,0 +1,24 @@
+.ariane {
+    background-color: var(--couleurJaune);
+padding: 1em 0em;
+    & .horizontal {
+        display: flex;
+        & p {
+            color: var(--couleurBlanc);
+            font-size: 1.5em;
+            margin: 0em 0em 0em 1em;
+            
+        }
+
+        & a {
+            color: var(--couleurBlanc);
+            margin: 0em 0em 0em 1em;
+            text-decoration: none ;
+            &:hover{
+                text-decoration: underline;
+                color: var(--couleurGris);
+            }
+        }
+    }
+
+}
