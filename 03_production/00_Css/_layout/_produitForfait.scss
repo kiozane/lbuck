@@ -19,12 +19,14 @@
         display: flex;
 
         & .fa-arrow-left,
-        & .fa-arrow-right{
+        & .fa-arrow-right {
             font-size: 5em;
-            &:hover{
+
+            &:hover {
                 cursor: progress;
             }
         }
+
         & .fiche {
             border: 5px solid black;
             width: 15em;
@@ -32,7 +34,8 @@
             margin: 2em;
 
         }
-        & .fiche1{
+
+        & .fiche1 {
             margin-left: 10em;
         }
     }

@@ -1,0 +1,82 @@
+.cmtCommander {
+    background-color: var(--couleurBrun);
+
+    & h3 {
+        margin: 0em;
+        text-align: center;
+        color: var(--couleurBlanc);
+        font-size: 2em;
+        padding: 1em 0em 0em 0em;
+    }
+
+    & ol {
+        margin: 0em;
+    }
+
+    & li {
+        font-size: 2em;
+        color: var(--couleurBlanc);
+        padding: 0em 0em 0em 1em;
+
+        &:last-child {
+            padding-bottom: 2em;
+        }
+    }
+
+
+}
+
+.livraison {
+    background-color: var(--couleurGris);
+
+    & .livraisonCote {
+        display: flex;
+    }
+
+    & i {
+        font-size: 5em;
+        color: var(--couleurJaune);
+    }
+
+    & h3 {
+        margin: 0em;
+        text-align: center;
+        color: var(--couleurBlanc);
+        font-size: 2em;
+        padding: 1em 0em 0em 0em;
+
+    }
+
+    & p {
+        margin: 0em;
+        color: var(--couleurBlanc);
+
+    }
+
+    & label {
+        color: var(--couleurBlanc);
+    }
+}
+
+.entreprise {
+    background-color: var(--couleurGris);
+
+    & h3 {
+        margin: 0em;
+        text-align: center;
+        font-size: 2em;
+        padding: 1em 0em 0em 0em;
+
+        & a {
+            color: var(--couleurBlanc);
+        }
+
+    }
+
+    & p {
+        margin: 0em;
+        padding-bottom: 2em;
+    }
+}
+
+@include boutton;

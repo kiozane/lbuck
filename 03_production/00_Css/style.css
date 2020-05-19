@@ -594,6 +594,94 @@ section.horaire th, section.horaire td {
   margin: 2em;
 }
 
+.cmtCommander {
+  background-color: var(--couleurBrun);
+}
+
+.cmtCommander h3 {
+  margin: 0em;
+  text-align: center;
+  color: var(--couleurBlanc);
+  font-size: 2em;
+  padding: 1em 0em 0em 0em;
+}
+
+.cmtCommander ol {
+  margin: 0em;
+}
+
+.cmtCommander li {
+  font-size: 2em;
+  color: var(--couleurBlanc);
+  padding: 0em 0em 0em 1em;
+}
+
+.cmtCommander li:last-child {
+  padding-bottom: 2em;
+}
+
+.livraison {
+  background-color: var(--couleurGris);
+}
+
+.livraison .livraisonCote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.livraison i {
+  font-size: 5em;
+  color: var(--couleurJaune);
+}
+
+.livraison h3 {
+  margin: 0em;
+  text-align: center;
+  color: var(--couleurBlanc);
+  font-size: 2em;
+  padding: 1em 0em 0em 0em;
+}
+
+.livraison p {
+  margin: 0em;
+  color: var(--couleurBlanc);
+}
+
+.livraison label {
+  color: var(--couleurBlanc);
+}
+
+.entreprise {
+  background-color: var(--couleurGris);
+}
+
+.entreprise h3 {
+  margin: 0em;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em 0em 0em 0em;
+}
+
+.entreprise h3 a {
+  color: var(--couleurBlanc);
+}
+
+.entreprise p {
+  margin: 0em;
+  padding-bottom: 2em;
+}
+
+.boutton {
+  border: solid 3px var(--couleurGris);
+  background-color: var(--couleurJaune);
+  border-radius: 10%;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1em;
+}
+
 /*gallerie image*/
 /*login*/
 /*# sourceMappingURL=style.css.map */
