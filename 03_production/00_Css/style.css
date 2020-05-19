@@ -565,6 +565,8 @@ section.horaire th, section.horaire td {
 
 .promo {
   background-color: var(--couleurJaune);
+  padding: 0em;
+  margin: 0em;
 }
 
 .promo .flex {
@@ -576,10 +578,15 @@ section.horaire th, section.horaire td {
 .promo h3 {
   color: var(--couleurBlanc);
   display: block;
+  margin: 0em;
+  padding: 2em 0em 0em 0em;
+  text-align: center;
+  font-size: 2em;
 }
 
 .promo p {
   color: var(--couleurBlanc);
+  padding-left: 2em;
 }
 
 .promo img {

@@ -1,15 +1,22 @@
 .promo {
     background-color: var(--couleurJaune);
+    padding: 0em;
+    margin: 0em;
     & .flex{
         display: flex;
     }
 
     & h3 {
         color: var(--couleurBlanc);
-        display: block
+        display: block;
+        margin: 0em;
+        padding: 2em 0em 0em 0em;
+        text-align: center;
+        font-size: 2em;
     }
     & p {
         color: var(--couleurBlanc);
+        padding-left: 2em;
     }
     & img{
         border: 5px solid black;
