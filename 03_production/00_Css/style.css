@@ -736,6 +736,14 @@ section.horaire th, section.horaire td {
   color: var(--couleurGris);
 }
 
+.nosProduit {
+  background-color: var(--couleurGris);
+}
+
+.nosProduit h1 {
+  margin: 0em;
+}
+
 /*gallerie image*/
 /*login*/
 /*# sourceMappingURL=style.css.map */
