@@ -1,0 +1,24 @@
+.droiteModif {
+    margin: 0em;
+
+    & .ajouter {
+        width: 15em;
+        margin: 0em;
+    }
+}
+
+a.ajoutProd {
+    margin-left: 0.5em;
+    color: white;
+    padding: 0.125em;
+    text-decoration: none;
+    border: solid 1px var(--couleurGris);
+    background-color: var(--couleurJaune);
+
+    &:hover {
+        background-color: var(--couleurGris);
+    }
+}
+label{
+    color: var(--couleurBlanc);
+}

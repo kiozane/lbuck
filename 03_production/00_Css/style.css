@@ -1123,4 +1123,30 @@ body.connection .boutton {
   padding: 0.3em 0em;
   color: var(--couleurBlanc);
 }
+
+.droiteModif {
+  margin: 0em;
+}
+
+.droiteModif .ajouter {
+  width: 15em;
+  margin: 0em;
+}
+
+a.ajoutProd {
+  margin-left: 0.5em;
+  color: white;
+  padding: 0.125em;
+  text-decoration: none;
+  border: solid 1px var(--couleurGris);
+  background-color: var(--couleurJaune);
+}
+
+a.ajoutProd:hover {
+  background-color: var(--couleurGris);
+}
+
+label {
+  color: var(--couleurBlanc);
+}
 /*# sourceMappingURL=style.css.map */
