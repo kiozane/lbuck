@@ -1,1 +1,11 @@
 /*header*/
+.langueConnection{
+    background-color: var(--couleurOrange);
+    display: flex;
+    justify-content: flex-end;
+    & a{
+        color: var(--couleurBlanc);
+        text-align: end;
+        padding:1em 0.5em;
+    }
+}

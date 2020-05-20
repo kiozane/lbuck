@@ -425,6 +425,22 @@ template {
 }
 
 /*header*/
+.langueConnection {
+  background-color: var(--couleurOrange);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.langueConnection a {
+  color: var(--couleurBlanc);
+  text-align: end;
+  padding: 1em 0.5em;
+}
+
 /*footer*/
 footer {
   background-color: var(--couleurBrun);
@@ -861,19 +877,35 @@ section.horaire th, section.horaire td {
 
 /*gallerie image*/
 /*login*/
-.langueConnection {
-  background-color: var(--couleurOrange);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+body {
+  background-color: var(--couleurBrun);
 }
 
-.langueConnection a {
+body img {
+  width: 15em;
+  margin: 0vw 41vw;
+}
+
+body h1 {
   color: var(--couleurBlanc);
-  text-align: end;
-  padding: 1em 0.5em;
+  text-align: center;
+}
+
+body .form {
+  padding: 0em 20em;
+}
+
+body .boutton {
+  margin: 40em;
+}
+
+.boutton {
+  border: solid 3px var(--couleurGris);
+  background-color: var(--couleurJaune);
+  border-radius: 10%;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1em;
 }
 /*# sourceMappingURL=style.css.map */
