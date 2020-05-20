@@ -3,11 +3,13 @@
 
     & aside {
         border-right: solid black 1px;
-        & a{
+
+        & a {
             color: var(--couleurBlanc);
             text-decoration: none;
             margin-left: 1em;
-            &:hover{
+
+            &:hover {
                 background-color: var(--couleurGris);
             }
         }
@@ -31,37 +33,62 @@
         flex-direction: column;
         text-align: center;
         margin: 0em 20em;
+
         & .newCommande {
-        display: flex;
-        align-items: center;
+            display: flex;
+            align-items: center;
 
-        & .chiffre {
-            font-size: 2em;
-            background-color: var(--couleurBlanc);
-            padding: 0.3em;
-            margin-right: 0.5em;
-            border: solid 1px black;
+            & .chiffre {
+                font-size: 2em;
+                background-color: var(--couleurBlanc);
+                padding: 0.3em;
+                margin-right: 0.5em;
+                border: solid 1px black;
 
-        }
+            }
 
-        & a.commande {
-            margin-left: 0.5em;
-            color: white;
-            padding: 0.125em;
-            text-decoration: none;
-            border: solid 1px var(--couleurGris);
-            background-color: var(--couleurJaune);
-            &:hover{
-                background-color: var(--couleurGris);
+            & a.commande {
+                margin-left: 0.5em;
+                color: white;
+                padding: 0.125em;
+                text-decoration: none;
+                border: solid 1px var(--couleurGris);
+                background-color: var(--couleurJaune);
+
+                &:hover {
+                    background-color: var(--couleurGris);
+                }
             }
         }
-    }
+        & .ligne{
+            text-align: start;
+            margin: 1em;
+            & label{
+                color: var(--couleurBlanc);
+            }
+            &:last-child{
+                display: flex;
+            }
+        }
+        & a{
+                margin-left: 0.5em;
+                color: white;
+                padding: 0.125em;
+                text-decoration: none;
+                border: solid 1px var(--couleurGris);
+                background-color: var(--couleurJaune);
+
+                &:hover {
+                    background-color: var(--couleurGris);
+                }
+        }
     }
 
-    
-    & .lesProduit{
+
+    & .lesProduit {
         display: flex;
         align-items: center;
+
         & .chiffre {
             font-size: 2em;
             background-color: var(--couleurBlanc);
@@ -70,23 +97,26 @@
             border: solid 1px black;
 
         }
-        & .dessusDessous{
+
+        & .dessusDessous {
             display: flex;
             flex-direction: column;
             margin-left: 0.5em;
-            
-            & a{ 
-            color: white;
-            padding: 0.125em;
-            text-decoration: none;
-            border: solid 1px var(--couleurGris);
-            background-color: var(--couleurJaune);
-            &:hover{
-                background-color: var(--couleurGris);
-            }
-            
+
+            & a {
+                color: white;
+                padding: 0.125em;
+                text-decoration: none;
+                border: solid 1px var(--couleurGris);
+                background-color: var(--couleurJaune);
+
+                &:hover {
+                    background-color: var(--couleurGris);
+                }
+
             }
         }
     }
 
 }
+@include boutton;

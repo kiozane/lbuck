@@ -981,6 +981,34 @@ body.connection .boutton {
   background-color: var(--couleurGris);
 }
 
+.aside .droite .ligne {
+  text-align: start;
+  margin: 1em;
+}
+
+.aside .droite .ligne label {
+  color: var(--couleurBlanc);
+}
+
+.aside .droite .ligne:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside .droite a {
+  margin-left: 0.5em;
+  color: white;
+  padding: 0.125em;
+  text-decoration: none;
+  border: solid 1px var(--couleurGris);
+  background-color: var(--couleurJaune);
+}
+
+.aside .droite a:hover {
+  background-color: var(--couleurGris);
+}
+
 .aside .lesProduit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,5 +1047,15 @@ body.connection .boutton {
 
 .aside .lesProduit .dessusDessous a:hover {
   background-color: var(--couleurGris);
+}
+
+.boutton {
+  border: solid 3px var(--couleurGris);
+  background-color: var(--couleurJaune);
+  border-radius: 10%;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1em;
 }
 /*# sourceMappingURL=style.css.map */
