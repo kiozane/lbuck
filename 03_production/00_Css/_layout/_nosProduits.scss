@@ -1,6 +1,41 @@
-.nosProduit{
+.nosProduit {
     background-color: var(--couleurGris);
-    & h1{
+& .listeProduit{
+     display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    color: #000;
+    width: 40vw;
+    padding: 0em 0em 0em 25em;
+}
+    & .produit {
+        margin: 1em 2em;
+        border: solid 1px black;
+       justify-content: center;
+        
+        & img { 
+            width: 11em;
+            display: block;
+        }
+
+        & a {
+            text-align:center;
+            color: var(--couleurBlanc);
+            justify-content: center;
+        }
+    }
+
+
+
+    & h1 {
+        padding: 1em 0em 0em 0em;
         margin: 0em;
+        color: var(--couleurBlanc);
+        text-align: center;
+    }
+
+    & p {
+        color: var(--couleurBlanc);
+        text-align: center;
     }
 }
