@@ -3,6 +3,14 @@
 
     & aside {
         border-right: solid black 1px;
+        & a{
+            color: var(--couleurBlanc);
+            text-decoration: none;
+            margin-left: 1em;
+            &:hover{
+                background-color: var(--couleurGris);
+            }
+        }
     }
 
     & .gauche {
@@ -43,6 +51,9 @@
             text-decoration: none;
             border: solid 1px var(--couleurGris);
             background-color: var(--couleurJaune);
+            &:hover{
+                background-color: var(--couleurGris);
+            }
         }
     }
     }
@@ -63,12 +74,16 @@
             display: flex;
             flex-direction: column;
             margin-left: 0.5em;
+            
+            & a{ 
+            color: white;
             padding: 0.125em;
             text-decoration: none;
             border: solid 1px var(--couleurGris);
             background-color: var(--couleurJaune);
-            & a{ 
-            color: white;
+            &:hover{
+                background-color: var(--couleurGris);
+            }
             
             }
         }

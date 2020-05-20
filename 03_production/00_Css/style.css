@@ -919,6 +919,16 @@ body.connection .boutton {
   border-right: solid black 1px;
 }
 
+.aside aside a {
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.aside aside a:hover {
+  background-color: var(--couleurGris);
+}
+
 .aside .gauche {
   margin: 0em 5em 0em 2.5em;
 }
@@ -967,6 +977,10 @@ body.connection .boutton {
   background-color: var(--couleurJaune);
 }
 
+.aside .droite .newCommande a.commande:hover {
+  background-color: var(--couleurGris);
+}
+
 .aside .lesProduit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -993,13 +1007,17 @@ body.connection .boutton {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 0.5em;
+}
+
+.aside .lesProduit .dessusDessous a {
+  color: white;
   padding: 0.125em;
   text-decoration: none;
   border: solid 1px var(--couleurGris);
   background-color: var(--couleurJaune);
 }
 
-.aside .lesProduit .dessusDessous a {
-  color: white;
+.aside .lesProduit .dessusDessous a:hover {
+  background-color: var(--couleurGris);
 }
 /*# sourceMappingURL=style.css.map */
