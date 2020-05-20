@@ -10,9 +10,9 @@
     <title>LEOS1761596_synthese_accueil</title>
 </head>
 
-<body class="connection">
+<body class="connection aside">
     <aside>
-        <img src="00_Img/01_logo/logo_lBuck.svg" alt="">
+        <img class="gauche" src="00_Img/01_logo/logo_lBuck.svg" alt="">
         <h2>- Vos options -</h2>
         <ul>
             <li><input type="checkbox"> afficher les commandes </li>
@@ -20,21 +20,23 @@
             <li><input type="checkbox"> ajouter un produit</li>
         </ul>
     </aside>
-    <h1>Module de gestion du site</h1>
-    <h3>Vous avez...</h3>
-    <div class="newCommande">
-        <p class="chiffre"> 1 </p>
-        <p> nouvelle commande(s)</p>
-        <a href="">afficher les commandes</a>
-    </div>
-    <div class="lesProduit">
-        <p class="chiffre"> 14 </p>
-        <p>produits</p>
-        <div class="dessusDessous">
-            <a href="">Gérer les produits</a>
-            <a href="">Ajouter un nouveau produit</a>
-        </div>   
-    </div>
+    <section class="droite">
+        <h1>Module de gestion du site</h1>
+        <h3>Vous avez...</h3>
+        <div class="newCommande">
+            <p class="chiffre"> 1 </p>
+            <p> nouvelle commande(s)</p>
+            <a class="commande" href="">afficher les commandes</a>
+        </div>
+        <div class="lesProduit">
+            <p class="chiffre"> 14 </p>
+            <p>produits</p>
+            <div class="dessusDessous">
+                <a href="">Gérer les produits</a>
+                <a href="">Ajouter un nouveau produit</a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

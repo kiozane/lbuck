@@ -908,4 +908,98 @@ body.connection .boutton {
   padding: 0.5em;
   margin: 1em;
 }
+
+.aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside aside {
+  border-right: solid black 1px;
+}
+
+.aside .gauche {
+  margin: 0em 5em 0em 2.5em;
+}
+
+.aside h2,
+.aside h3 {
+  color: var(--couleurBlanc);
+}
+
+.aside h2 {
+  margin: 1.5em;
+}
+
+.aside .droite {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 0em 20em;
+}
+
+.aside .droite .newCommande {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aside .droite .newCommande .chiffre {
+  font-size: 2em;
+  background-color: var(--couleurBlanc);
+  padding: 0.3em;
+  margin-right: 0.5em;
+  border: solid 1px black;
+}
+
+.aside .droite .newCommande a.commande {
+  margin-left: 0.5em;
+  color: white;
+  padding: 0.125em;
+  text-decoration: none;
+  border: solid 1px var(--couleurGris);
+  background-color: var(--couleurJaune);
+}
+
+.aside .lesProduit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aside .lesProduit .chiffre {
+  font-size: 2em;
+  background-color: var(--couleurBlanc);
+  padding: 0.3em;
+  margin-right: 0.5em;
+  border: solid 1px black;
+}
+
+.aside .lesProduit .dessusDessous {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.5em;
+  padding: 0.125em;
+  text-decoration: none;
+  border: solid 1px var(--couleurGris);
+  background-color: var(--couleurJaune);
+}
+
+.aside .lesProduit .dessusDessous a {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
