@@ -1009,6 +1009,10 @@ body.connection .boutton {
   background-color: var(--couleurGris);
 }
 
+.aside .droite .inventaire {
+  margin: 0em;
+}
+
 .aside .lesProduit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1057,5 +1061,66 @@ body.connection .boutton {
   text-decoration: none;
   padding: 0.5em;
   margin: 1em;
+}
+
+.inventaire {
+  width: 65vw;
+  margin-left: 1em;
+}
+
+.inventaire h1 {
+  margin: 1em;
+}
+
+.inventaire h3 {
+  font-size: 2em;
+  margin: 0em;
+  padding-bottom: 1.3em;
+}
+
+.inventaire .ficheProduit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 0em;
+}
+
+.inventaire .description {
+  margin: 0em;
+  color: var(--couleurBlanc);
+}
+
+.inventaire .ajouter {
+  margin: 0em;
+  width: 7em;
+}
+
+.inventaire .texte {
+  display: block;
+}
+
+.inventaire .btnDroite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 3em;
+}
+
+.inventaire .btnDroite .prix {
+  margin: 0em;
+  color: var(--couleurBlanc);
+}
+
+.inventaire .btnDroite i {
+  font-size: 2em;
+  padding: 0.3em 0em;
+  color: var(--couleurBlanc);
 }
 /*# sourceMappingURL=style.css.map */
