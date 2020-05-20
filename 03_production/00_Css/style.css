@@ -787,6 +787,93 @@ section.horaire th, section.horaire td {
   text-align: center;
 }
 
+.presProduit {
+  background-color: var(--couleurGris);
+  padding: 0em 0em 1em 0em;
+}
+
+.presProduit .side {
+  margin: 0em 0em 0em 15em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+}
+
+.presProduit .side .texte {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.presProduit .side .texte a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presProduit h2 {
+  margin: 0em;
+  color: var(--couleurBlanc);
+  text-align: center;
+  padding: 1em 0em;
+  font-size: 3em;
+}
+
+.presProduit p {
+  color: var(--couleurBlanc);
+  text-align: justify;
+  margin-left: 1em;
+}
+
+.presProduit h3 {
+  margin: 0em;
+  color: var(--couleurBlanc);
+  text-align: center;
+  padding: 1em 0em;
+  font-size: 2.5em;
+}
+
+.presProduit .suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0vw 25vw;
+}
+
+.presProduit .suggestion img {
+  border: solid 1px black;
+  width: 12em;
+  height: 12em;
+  margin: 1em;
+}
+
+.boutton {
+  border: solid 3px var(--couleurGris);
+  background-color: var(--couleurJaune);
+  border-radius: 10%;
+  color: var(--couleurBlanc);
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 1em;
+}
+
 /*gallerie image*/
 /*login*/
+.langueConnection {
+  background-color: var(--couleurOrange);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.langueConnection a {
+  color: var(--couleurBlanc);
+  text-align: end;
+  padding: 1em 0.5em;
+}
 /*# sourceMappingURL=style.css.map */

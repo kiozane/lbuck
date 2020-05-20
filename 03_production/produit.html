@@ -11,6 +11,11 @@
 </head>
 
 <body>
+    <div class="langueConnection">
+        <a href="">EN</a>
+        <a href="">FR</a>
+        <a href=""> <i class="fas fa-user"></i></a>
+    </div>
     <header>
         <nav class="navPrincipal">
             <ul>
@@ -22,31 +27,51 @@
             </ul>
         </nav>
     </header>
-    
+
     <section class="ariane">
-        <a href="index.html">Accueil</a>
-        <p>/</p>
-        <a href="listeProduit.html">liste des produits</a>
-        <p>/</p>
-        <a href="produit.html">produit</a>
+        <div class="horizontal">
+            <a href="index.html">Accueil</a>
+            <p>/</p>
+            <a href="listeProduit.html">liste des produits</a>
+            <p>/</p>
+            <a href="produit.html">notre Produit</a>
+        </div>
     </section>
     <section class="presProduit">
-        <h2>Nom du produit</h2>
+        <h2>Rousse de veau</h2>
         <div class="side">
-            <img src="" alt="le produit en question">
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Molestiae, qui ipsam praesentium architecto quos velit
-                eaque rerum aliquam sunt illum,illo dolor soluta veniam
-                optio officiis voluptatibus incidunt itaque dolorem.
-            </p>
+            <img src="00_Img/00_img/biereRousse-480.jpg" alt="le produit en question">
+            <div class="texte">
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Molestiae, qui ipsam praesentium architecto quos velit
+                    eaque rerum aliquam sunt illum,illo dolor soluta veniam
+                    optio officiis voluptatibus incidunt itaque dolorem. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing
+                    elit.
+                    Molestiae, qui ipsam praesentium architecto quos velit
+                    eaque rerum aliquam sunt illum,illo dolor soluta veniam
+                    optio officiis voluptatibus incidunt itaque dolorem.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Molestiae, qui ipsam praesentium architecto quos velit
+                    eaque rerum aliquam sunt illum,illo dolor soluta veniam
+                    optio officiis voluptatibus incidunt itaque dolorem. Lorem ipsum dolor, sit amet consectetur
+                    adipisicing
+                    elit.
+                    Molestiae, qui ipsam praesentium architecto quos velit
+                    eaque rerum aliquam sunt illum,illo dolor soluta veniam
+                    optio officiis voluptatibus incidunt itaque dolorem.
+                </p>
+                <a class="boutton" href="">Ajouter</a>
+            </div>
+
         </div>
-        <a href="">Ajouter</a>
+
+        <h3> vous pourriez aimé aussi...</h3>
         <div class="suggestion">
-            <h3> vous pourriez aimé aussi...</h3>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="00_Img/00_img/biereVerre-240.jpg" alt="">
+            <img src="00_Img/00_img/bouteilleverre-240.jpg" alt="">
+            <img src="00_Img/00_img/biereBuckVerre-240.jpg" alt="">
+
         </div>
     </section>
 
@@ -60,46 +85,68 @@
             <li>Recevez votre commande et apprécier votre achat</li>
         </ol>
     </section>
-    <section class="livraison">
+    <section id="livrer" class="livraison">
+        <h3>Livraison</h3>
+        <div class="livraisonCote">
 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab
+                architecto recusandae quidem sint, eum placeat<br> Non voluptatem molestiae
+                dolorum adipisci pariatur. Illum dolores, earum eveniet mollitia,<br>
+                sint, laboriosam ipsam eaque quod asperiores optio tempore excepturi harum dolore.
+            </p>
+
+            <i class="fas fa-box"></i>
+        </div>
+        <p class="distance"> 10km </p>
+        <label for="">Code Postal</label>
+        <input type="text">
+        <a class="boutton" href="#livrer">Vérifier</a>
     </section>
 
 
     <section class="faq">
-        <div class="gauche">
-            <img src="" alt="logo">
-            <address>
-                1921 Boulevard Lionel Bertrand, Boisbriand, QC J7H 1N8<br>
-                450-745-9173<br>
-                lbuckMicrobrasserie@hotmail.com<br>
-            </address>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-        </div>
-        <div class="droite">
-            <form>
-                <label>Prenom:</label>
-                <input type="text"><br><br>
-                <label>Nom:</label>
-                <input type="text"><br><br>
-                <label>Courriel:</label>
-                <input type="text"><br><br>
-                <label>Question:</label>
-                <input type="text"><br><br>
-                <input type="submit" value="envoyer">
-            </form>
+        <h3>Nous contacter</h3>
+        <div class="flex">
+            <div class="gauche">
+                <a href="index.html"> <img src="00_Img/01_logo/logo_lBuck.svg" alt="logo"></a>
+                <address>
+                    1921 Boulevard Lionel Bertrand, Boisbriand, QC J7H 1N8<br>
+                    450-745-9173<br>
+                    lbuckMicrobrasserie@hotmail.com<br>
+                </address>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <div class="droite">
+                <form>
+                    <label>Prenom:</label>
+                    <input type="text"><br><br>
+                    <label>Nom:</label>
+                    <input type="text"><br><br>
+                    <label>Courriel:</label>
+                    <input type="text"><br><br>
+                    <label>Question:</label>
+                    <textarea name="" id="" cols="25" rows="3"></textarea><br><br>
+                    <a class="boutton" href="">envoyer</a>
+                </form>
+            </div>
         </div>
     </section>
-    <footer>
-        <nav class="navFooter">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="listeProduit.html">Nos produits</a></li>
-                <li><a href="#">Nous contacter</a></li>
-                <li><a href="#foire">FAQ</a></li>
-            </ul>
-        </nav>
+    <footer class="footer">
+        <div class="flexFooter">
+            <a href="index.html"><img src="00_Img/01_logo/logo_lBuck.svg" alt="logo"></a>
+            <nav class="navFooter">
+
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="listeProduit.html">Nos produits</a></li>
+                    <li><a href="#entreprise">Nous contacter</a></li>
+                    <li><a href="#foire">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
         <p>&copy; CSTJ | Technique d'intégration multimédia 2020 - projet synthèse d'assemblage en multimédia</p>
     </footer>
 

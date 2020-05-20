@@ -1,0 +1,47 @@
+.presProduit{
+    background-color: var(--couleurGris);
+    padding: 0em 0em 1em 0em;
+    & .side{
+        margin: 0em 0em 0em 15em;
+        display: flex;
+        width: 60vw;
+        & .texte{
+            flex-direction: column;
+            & a{
+                align-items: center;
+            }
+        }
+    }
+    & h2{
+        margin: 0em;
+        color: var(--couleurBlanc);
+        text-align: center;
+        padding: 1em 0em;
+        font-size: 3em;
+    }
+    & p{
+        color: var(--couleurBlanc);
+        text-align: justify;
+        margin-left: 1em;
+    }
+
+    & h3{
+        margin: 0em;
+        color: var(--couleurBlanc);
+        text-align: center;
+        padding: 1em 0em;
+        font-size: 2.5em;
+    }
+    & .suggestion{
+        display: flex;
+        margin:0vw 25vw;
+        & img{
+            border: solid 1px black;
+            width: 12em;
+            height: 12em;
+            margin: 1em;
+            
+        }
+    }
+}
+@include boutton;
