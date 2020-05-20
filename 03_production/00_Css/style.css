@@ -877,25 +877,25 @@ section.horaire th, section.horaire td {
 
 /*gallerie image*/
 /*login*/
-body {
+body.connection {
   background-color: var(--couleurBrun);
 }
 
-body img {
+body.connection img {
   width: 15em;
   margin: 0vw 41vw;
 }
 
-body h1 {
+body.connection h1 {
   color: var(--couleurBlanc);
   text-align: center;
 }
 
-body .form {
+body.connection .form {
   padding: 0em 20em;
 }
 
-body .boutton {
+body.connection .boutton {
   margin: 40em;
 }
 
