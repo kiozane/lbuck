@@ -362,11 +362,21 @@ template {
 }
 
 /*grille desktop*/
+body {
+  width: 100vw;
+}
+
 /*grille mobile*/
 /*sous grille contenu */
 /*nav principale*/
 .navPrincipal {
   background-color: var(--couleurBrun);
+  position: fixed;
+  width: 100%;
+}
+
+.navPrincipal .top {
+  top: 0;
 }
 
 .navPrincipal ul {
@@ -441,6 +451,18 @@ template {
   padding: 1em 0.5em;
 }
 
+.fa-arrow-alt-circle-up {
+  position: fixed;
+  right: 0.5em;
+  bottom: 0.5em;
+  font-size: 5em;
+  color: var(--couleurNoir);
+}
+
+.fa-arrow-alt-circle-up:hover {
+  color: var(--couleurBlanc);
+}
+
 /*footer*/
 footer {
   background-color: var(--couleurBrun);
@@ -468,11 +490,6 @@ footer p {
 }
 
 /*liste produit*/
-.wrapper {
-  width: 100vw;
-  margin: 0 auto;
-}
-
 /*pub*/
 /*horaire*/
 section.horaire {

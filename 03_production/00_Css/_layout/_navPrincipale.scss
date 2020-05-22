@@ -1,6 +1,13 @@
 /*nav principale*/
 .navPrincipal{
     background-color:var(--couleurBrun);
+    position: fixed;
+    width: 100%;
+    // top: 0;
+    & .top{
+        top: 0;
+    }
+    
     ul{
         margin: 0em;
         display: flex;

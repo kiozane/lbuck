@@ -1,5 +1,6 @@
 /*header*/
 .langueConnection{
+    
     background-color: var(--couleurOrange);
     display: flex;
     justify-content: flex-end;
@@ -7,5 +8,17 @@
         color: var(--couleurBlanc);
         text-align: end;
         padding:1em 0.5em;
+    }
+    
+    
+}
+.fa-arrow-alt-circle-up{
+    position: fixed;
+    right: 0.5em;
+    bottom: 0.5em;
+    font-size: 5em;
+    color: var(--couleurNoir);
+    &:hover{
+        color: var(--couleurBlanc);
     }
 }
