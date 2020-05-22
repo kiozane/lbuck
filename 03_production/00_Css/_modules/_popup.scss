@@ -1,0 +1,37 @@
+.popup{
+    display: none;
+    border: solid 1px black;
+    background-color: var(--couleurOrange);
+    padding-bottom: 10em ;
+    width: 40vw;
+    height: 30vh;
+    position: fixed;
+    text-align: center;
+    left: 30vw;
+    top: 10vh;
+    & h3{
+        font-size: 2em;
+        margin: 1em 0em 0em 0em;
+    }
+    & p{
+        color: var(--couleurBlanc);
+    }
+    .deCote{
+        display: flex;
+        & img{
+            margin: 0em;
+            width: 10em;
+            height: 10em;
+        }
+        & .texte{
+            width: 25vw;
+        }
+    }  
+        & a{
+            margin: 0em;
+        }
+    
+}
+.afficher{
+    display: block;
+}

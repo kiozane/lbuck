@@ -912,8 +912,9 @@ body.connection .form {
   padding: 0em 20em;
 }
 
-body.connection .boutton {
-  margin: 40em;
+body.connection .bouttonConnection {
+  position: fixed;
+  left: 45vw;
 }
 
 .boutton {
@@ -965,7 +966,7 @@ body.connection .boutton {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  margin: 0em 20em;
+  margin: 0em;
 }
 
 .aside .droite .newCommande {
@@ -1165,5 +1166,51 @@ a.ajoutProd:hover {
 
 label {
   color: var(--couleurBlanc);
+}
+
+.popup {
+  display: none;
+  border: solid 1px black;
+  background-color: var(--couleurOrange);
+  padding-bottom: 10em;
+  width: 40vw;
+  height: 30vh;
+  position: fixed;
+  text-align: center;
+  left: 30vw;
+  top: 10vh;
+}
+
+.popup h3 {
+  font-size: 2em;
+  margin: 1em 0em 0em 0em;
+}
+
+.popup p {
+  color: var(--couleurBlanc);
+}
+
+.popup .deCote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popup .deCote img {
+  margin: 0em;
+  width: 10em;
+  height: 10em;
+}
+
+.popup .deCote .texte {
+  width: 25vw;
+}
+
+.popup a {
+  margin: 0em;
+}
+
+.afficher {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
